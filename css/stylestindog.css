@@ -1,0 +1,202 @@
+/* to target h1,h2, we just write it. To target classes, we put .class. To target IDs we use the # */
+body {
+  font-family: 'Montserrat', sans-serif; 
+  text-align: center;
+  }
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 900;
+  }
+
+h3 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+/* Headings */
+
+.big-heading {
+
+  font-size: 3.5rem;
+  line-height: 3rem;
+  font-weight: 900;
+
+}
+
+.section-heading{
+
+font-size: 3rem;
+line-height: 3.5rem;
+
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ef8172;
+
+}
+.white-section {
+
+  background-color: white;
+
+
+}
+
+
+
+#title {
+  color: white;
+  
+  text-align: left;
+}
+
+/* Navigation bar */
+
+.navbar {
+padding:0 0 4.5rem;
+
+}
+
+.navbar-brand {
+color: aliceblue;
+font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* Download Button  */
+
+.download-button{
+margin: 5% 3% 5% 0;
+}
+/* Title Image */
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+/* Second Section */
+
+#features {
+  padding: 10% 15%;
+  
+}
+
+.signs-second {
+ color: #ef8172;
+ margin-bottom: 8%;
+ padding: 5%;
+
+}
+
+.signs-second:hover {
+  color: #ff4c88;
+}
+
+.p-features {
+  color: #8f8f8f;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  
+  color: #fff;
+}
+
+.testimonial-text {
+
+font-size: 3rem;
+line-height: 3rem;
+
+}
+
+.testimonial-image {
+/* The border radius to 100% will make the image rounded */
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 9%;
+}
+
+#press {
+ padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+#cta{
+  color: white;
+  }
+
+.title-cta {
+
+  font-size: 3rem;
+  line-height: 5rem;
+  font-weight: 900;
+  padding-top: 5rem;
+}
+
+/* Footer  */
+
+#footer {
+    padding: 7% 15%;
+}
+
+.socials {
+  color: #8f8f8f;
+  padding: 1%;  
+}
+
+.socials-icons {
+  margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+
+
+  .title-image {
+    text-align: center;
+    position: static;
+    transform: rotate(0);
+  }
+  
+}
